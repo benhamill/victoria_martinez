@@ -29,7 +29,7 @@
 *create athletics       0
 *create diplomacy       0
 *create smarts          0
-*create street_smarts   0
+*create savvy           0
 
 
 *comment Before publishing, delete everything after this line and make sure the

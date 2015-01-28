@@ -56,7 +56,7 @@ about…
         *set extracurricular_name "math competitions"
         *set extracurricular_desc "equations and calculator tricks"
     #slacking.
-        *set street_smarts (street_smarts + 1)
+        *set savvy (savvy + 1)
         *set extracurricular_name "slacking"
         *set extracurricular_desc "hanging around behind public buildings"
 

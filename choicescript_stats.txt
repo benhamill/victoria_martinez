@@ -25,10 +25,10 @@ Episode ${episode_number}: ${episode_title}
 *gosub skill_description
 *set smarts_desc stat_description
 
-*temp street_smarts_desc
-*set stat_value street_smarts
+*temp savvy_desc
+*set stat_value savvy
 *gosub skill_description
-*set street_smarts_desc stat_description
+*set savvy_desc stat_description
 
 [b]Skills[/b]
 *stat_chart
@@ -36,7 +36,7 @@ Episode ${episode_number}: ${episode_title}
     text athletics_desc Athletics
     text diplomacy_desc Diplomacy
     text smarts_desc Smarts
-    text street_smarts_desc Street Smarts
+    text savvy_desc Street Smarts
 
 
 *finish
