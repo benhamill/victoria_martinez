@@ -1,0 +1,249 @@
+Kaitlin Rothstein. You've been best friends since kindergarten and she's really
+the only person that stuck with you over the summer. Between the two of you,
+she's the one that gets the grades and stays out of trouble.
+
+She's leaning casually against the wall, waiting for you, her backpack loaded
+up. Her light brown hair is in a short pixie cut and her freckles stand out as
+she smiles at you. She holds her slender hands out to ward off an impending
+impact, but you manage to come up short and avoid plowing into her.
+
+"I mean," she says, "we need to get going, but we don't have to herniate
+anything to get there." She elbows you in the ribs good naturedly as you walk
+together to the bus stop.
+
+
+*page_break
+
+On the bus, you and Kaitlin share a seat. She catches you staring out the window
+amidst the chaos of the other students.
+
+"It's a beautiful underpass, right?"
+
+Blinking, you look at her in confusion. "What?"
+
+"You were gazing, I can only assume, at the splendor of the underpass that
+stands in recognition of our passage from the 'bad part of town' to the 'good
+part of town'," she says, complete with air quotes. "But, seriously. You're
+quiet. What's wrong?"
+
+
+*label worry
+
+What do you tell Kaitlin you're worried about?
+
+*choice
+    *disable_reuse #Express worry about seeing your ex again.
+        You sigh and turn to face Kaitlin. You start to open your mouth to
+        reply, but have to stop. You can feel the tears waiting behind your
+        eyes, the awful feeling in your gut, creeping up your throat. You're
+        afraid if you say anything, they'll burst out. And you [i]really[/i]
+        don't want to start the year off by making a big scene on the bus on the
+        first day back.
+
+        Kaitlin knows what you were going to say, anyway. Best friends are good
+        like that. "Oh. Hey, hey. I get it. Come here," she says, giving you a
+        hug.
+
+        She simply holds you for a bit until you calm down.
+
+        *gosub define_ex
+
+        You wipe one eye and clear your throat. "Thanks."
+
+        "Of course," Kaitlin says, "How can I help? Should we talk about how
+        shitty Mercedes is until we get to school?"
+
+        "Well," you say, "she is pretty awful." You give Kaitlin a smile to show
+        that she's already helping. "But I'm more worried about me."
+
+
+        *temp advice_given false
+        *label advice
+
+        Ask Kaitlin for advice about…
+
+        *choice
+            *disable_reuse #what to do when you see $!{ex_antonia} for the first time.
+                "The school's not that big. What'll I do the first time I run
+                into $!{ex_antonia}?" you say, "I wish I could just… not."
+
+                Kaitlin says, "With any luck, neither ${ex_she} not Mercedes
+                will go out of their way to talk to you. If it were me, I'd just
+                keep my head down.  But you know me: I don't like
+                confrontation."
+
+                *if (advice_given)
+                    *goto no_advice
+                *else
+                    *set advice_given true
+                    *goto advice
+
+            *disable_reuse #what other people might be saying about you.
+                *set advice_given true
+
+                "I'm worried about what Mercedes might've been saying about me
+                over the summer," you say, "She's the kind of person who'd take
+                something $!{ex_antonia} said and twist it and then repeat it to
+                her billion friends. How can I even deal with that?"
+
+                Kaitlin shrugs. "Maybe you'll be lucky and Mercedes is feeling
+                magnanimous this time?"
+
+                You raise an eyebrow.
+
+                "No, you're probably right," she says, "I got nothing, Victoria.
+                I think, if they're spreading rumors, we have to see what they
+                are first.  Sorry."
+
+                *if (advice_given)
+                    *goto no_advice
+                *else
+                    *set advice_given true
+                    *goto advice
+
+            *if (advice_given) #nothing. I've got all the advice I need.
+                *label no_advice
+                "Thanks," you say, "I think I'm—I'll be OK, now."
+
+                Smiling, Kaitlin says, "Good."
+
+                The two of you sit in companionable silence while the mood
+                diffuses.  After a short while, Kaitlin takes out her phone.
+                "Oh! Did you see the laughing hamster video?"
+
+                The two of you spend the rest of the ride to school laughing at
+                funny videos on the internet.
+
+                *goto breakup
+
+    *disable_reuse #Vent about how mom woke you up.
+        You shake your head and roll your eyes. "My mom woke me up really
+        rudely, this morning." You shrug. "Like, yelling at me and pulling the
+        covers off. I don't know why she can't be nice about it."
+
+        Kaitlin suppresses a smile. "Probably she [i]started[/i] that way,
+        Victoria. You just went right back to sleep. Remember: I've been to
+        every slumber party you've ever had. I know you sleep like the dead."
+        She pauses a moment as if considering whether to say something, then
+        adds, "You should cut her some slack."
+
+        "Ugh," you reply, staring out the window again. "You're probably
+        right. She's just always, so…" While groping for the word, you turn
+        back to face your best friend, "You know?"
+
+        "I know." Kaitlin nods. "She pushes you because she loves you. But: She
+        woke you up mad when you were going to be late for school. Big deal. Did
+        something else happen?" She looks genuinely worried.
+
+        *choice
+            #Nothing else happened.
+                You chuckle at yourself. "No, you're right. I'm making a big
+                deal over nothing."
+
+                "Oh, no, no. I think your reaction was totally appropriate to
+                the events as they occurred," Kaitlin razzes you. The two of you
+                pass the rest of the bus ride to school chatting and relaxing.
+
+                But in the back of your mind, you're still worrying.
+                *gosub define_ex
+
+                *goto breakup
+
+            #Actually, there's something else bothering me…
+                *goto worry
+
+    *disable_reuse #Stress about how hard classes might be.
+        You roll your shoulders, trying to loosen the muscles there. "I'm just
+        thinking about classes, you know? Are they gonna be hard? What if I
+        don't do well?"
+
+        Kaitlin blinks at you a moment, confused. "Who are you and what have you
+        done with my friend, Victoria?" Then understanding dawns. She nods and
+        smirks. "Oh, no. I see. You're actually just worried about whether
+        you'll have the time and grades to stay on the newspaper."
+
+        "No!" you assure her, "Well—yes. That, too. But you know as well as I do
+        that if I want to go to college, I [i]need[/i] a scholarship. And I'm
+        not gonna be starting for the football team any time soon, I'll tell you
+        that."
+
+        "OK. That's true. We'll both have to deal with that when we come to it.
+        But that's… impressively responsible sounding for you, Victoria. We're
+        only just sophomores. You're sure that's it?"
+
+        *choice
+            #Yeah. That's it.
+                "Hey!" you say, pretending to be offended. "I can totally be
+                responsible! When I want to be!"
+
+                Kaitlin blinks at you, one eyebrow raised.
+
+                "From [i]time[/i] to [i]time[/i]," you concede, "Shut up, you."
+                You whack her lightly on the arm. The two of you pass the rest
+                of the bus ride chattering and laughing together.
+
+                But in the back of your mind, you're still worrying.
+                *gosub define_ex
+
+                *goto breakup
+
+            #Actually, there's something else bothering me…
+                *goto worry
+
+    #Nothing. Wave her off.
+        You take a deep breath and let it out explosively. "It's nothing. I'm
+        just—I stayed up too late last night. I'm a space cadet today, I guess."
+
+        Kaitlin narrows her eyes at you, "Are you sure?"
+
+        *choice
+            #It's nothing. Drop it.
+                You put on a serious face and turn your shoulders slightly away
+                from Kaitlin. "Look—Just drop it, OK, Kaitlin? It's nothing."
+
+                She looks at you wide-eyed for a moment, then mutters, "Fine.
+                Jesus."
+
+                You ride the rest of the way to school in silence. She's not
+                bothering you any more, but in the back of your mind, you're
+                still worrying.
+                *gosub define_ex
+
+                *goto breakup
+
+            #Actually, there is something bothering me…
+                *goto worry
+
+
+*label define_ex
+
+It's been three months, but even so, just thinking about your ex-…
+
+*fake_choice
+    #girlfriend.
+        *set ex_antonia "antonia"
+        *set ex_girl    "girl"
+        *set ex_her     "her"
+        *set ex_her_p   "her"
+        *set ex_she     "she"
+    #boyfriend.
+        *set ex_antonia "antonio"
+        *set ex_girl    "boy"
+        *set ex_her     "him"
+        *set ex_her_p   "his"
+        *set ex_she     "he"
+
+
+It's been three months, but even so, just thinking about $!{ex_antonia} still
+really gets to you. $!{ex_she} was your first real ${ex_girl}friend. It doesn't
+help that ${ex_her_p} new girlfriend is Mercedes Grant, one of the most stuck up,
+petty, vicious, entitled white girls at Ennis High School.
+
+*return
+
+
+
+*label breakup
+
+*page_break Four months earlier…
+*goto_scene the_breakup

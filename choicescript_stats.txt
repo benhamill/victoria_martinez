@@ -1,0 +1,71 @@
+[b]Victoria Martinez[/b]
+*line_break
+Episode ${episode_number}: ${episode_title}
+
+*temp stat_value
+*temp stat_description
+
+*temp fast_talk_desc
+*set stat_value fast_talk
+*gosub skill_description
+*set fast_talk_desc stat_description
+
+*temp athletics_desc
+*set stat_value athletics
+*gosub skill_description
+*set athletics_desc stat_description
+
+*temp diplomacy_desc
+*set stat_value diplomacy
+*gosub skill_description
+*set diplomacy_desc stat_description
+
+*temp smarts_desc
+*set stat_value smarts
+*gosub skill_description
+*set smarts_desc stat_description
+
+*temp street_smarts_desc
+*set stat_value street_smarts
+*gosub skill_description
+*set street_smarts_desc stat_description
+
+[b]Skills[/b]
+*stat_chart
+    text fast_talk_desc Fast Talk
+    text athletics_desc Athletics
+    text diplomacy_desc Diplomacy
+    text smarts_desc Smarts
+    text street_smarts_desc Street Smarts
+
+
+*finish
+
+*label skill_description
+
+*set stat_description false
+
+*if stat_value < 1
+    *set stat_description "Meh"
+    *set stat_value "Oops."
+    *return
+*elseif stat_value = 1
+    *set stat_description "OK, I guess"
+    *set stat_value "Oops."
+    *return
+*elseif stat_value = 2
+    *set stat_description "Alright"
+    *set stat_value "Oops."
+    *return
+*elseif stat_value = 3
+    *set stat_description "Decent"
+    *set stat_value "Oops."
+    *return
+*elseif stat_value = 4
+    *set stat_description "Pretty good"
+    *set stat_value "Oops."
+    *return
+*elseif stat_value > 4
+    *set stat_description "Solid"
+    *set stat_value "Oops."
+    *return

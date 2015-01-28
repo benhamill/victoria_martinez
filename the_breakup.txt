@@ -1,0 +1,94 @@
+[b]Four months ago...[b]
+
+[i]$!{ex_antonia} leaned over to whisper to you. In the dark theater, ${ex_her_p}
+[i]breath on your ear made you tingle.
+
+[i]"This movie is boring," ${ex_she} said, "Let's go do something more exciting."
+
+[i]You left your seats and hurried down the aisle of the movie theater hand in
+[i]hand. You hoped ${ex_she} couldn't feel how sweaty your palm was; hear how
+[i]hard your heart was beating in your chest.
+
+[i]Outside, the light was blinding. The pseudo-alley behind the theater was
+[i]deserted of people. Before you could fully get your bearings, $!{ex_antonia}
+[i]pushed you against the wall and leaned ${ex_her_p} body into yours, maximizing
+[i]contact. $!{ex_she} leaned ${ex_her_p} face in beside your neck, not quite
+[i]touching your skin with ${ex_her_p} lips.
+
+[i]How did you feel about this?
+
+*fake_choice
+    #Nervous. I wasn't sure how far I was ready to go.
+        [i]You closed your eyes. Your breathing became shorter. You put your
+        [i]hands against $!{ex_antonia}'s sides to push ${ex_her} away, but at
+        [i]the last moment couldn't bring yourself to. It felt too nice.
+
+    #Nervous. A movie might have let out and we could've been caught.
+        [i]Your breathing became shorter. You glanced around nervously. You put
+        [i]your hands against $!{ex_antonia}'s sides to push ${ex_her} away, but
+        [i]at the last moment couldn't bring yourself to. It felt too nice.
+
+    #Excited. A movie might have let out and we could've been caught.
+        [i]You closed your eyes. Your breathing became shorter. You put your
+        [i]hands around $!{ex_antonia}'s waist to hold ${ex_her} closer. You
+        [i]strained your ears, hoping to hear a theater door open.
+
+    #Excited. $!{ex_her_p} closeness was driving me wild.
+        [i]You closed your eyes. Your breathing became shorter. You put your
+        [i]hands around $!{ex_antonia}'s waist to hold ${ex_her} closer. You
+        [i]almost couldn't stand ${ex_her_p} teasing your any longer.
+
+[i]$!{ex_antonia} finally kissed your neck, your jaw line. Your lips met and you
+[i]felt like you were spinning, like the ground had vanished under you. Kissing
+[i]${ex_her} was always like this.
+
+[i]After some unknown period of time, the two of you broke off. $!{ex_she}
+[i]smiled at you, both of you breathing heavily, still reveling in your
+[i]closeness. Standing there, close to ${ex_her}, smelling ${ex_her_p} shampoo,
+[i]you realized something.
+
+[i]"A-${ex_antonia}," you said, then stopped. You'd never said this to anyone
+[i]before and weren't sure of yourself. $!{ex_she} just tilted ${ex_her_p} head
+[i]to the side and looked back and forth between your eyes, so you took a deep
+[i]breath and said, "$!{ex_antonia}, I love you."
+
+
+*page_break
+
+[i]Instantly, you knew it was a mistake. The light in $!{ex_antonia}'s face
+[i]vanished and ${ex_she} averted ${ex_her_p} eyes. $!{ex_she} pushed back from
+[i]you. The suddenly cool air where ${ex_her_p} body had been felt like daggers.
+
+[i]"Oh," ${ex_she} mumbled, "Yeah, uh…" $!{ex_she} shuffled ${ex_her_p} feet and
+[i]looked down, tucking some loose hair behind ${ex_her_p} ear. After a moment
+[i]more of awkward silence ${ex_she} blurted out, "I gotta go," and walked, then
+[i]jogged, then ran to where the two of you had locked up your bikes together
+[i]and rode off alone.
+
+[i]All you could do through this was to stare in horror. As soon as you saw
+[i]${ex_her_p} face change, your heart stopped. The bottom fell out of your gut.
+[i]It was hard to breathe. What had you just done?
+
+
+*page_break
+
+[i]An hour or so later, you had finally got yourself back together enough to
+[i]petal over to Kaitlin's apartment. As soon as she opened the door, you burst
+[i]out crying. Out of fear. Out of confusion. Out of shame. You felt like you
+[i]had done something wrong, but you weren't even sure what, or what would
+[i]happen because of it.
+
+[i]The next day, you spent the entire bus ride to school with your stomach in a
+[i]tight knot. You moved through your day in a haze when you realized that
+[i]$!{ex_antonia} was completely avoiding you.
+
+[i]It was a week before you finally admitted to yourself that you were broken
+[i]up. $!{ex_she} didn't tell you ${ex_she}'d dumped you; ${ex_she} didn't say
+[i]anything at all to you in that time. Kaitlin managed to get you out of your
+[i]funk enough to deal with finals, and then it was summer break and on the
+[i]second day, you saw $!{ex_antonia} at the pool with Mercedes. They were
+[i]holding hands.
+
+
+*page_break
+*goto_scene journalism_class

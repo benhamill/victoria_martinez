@@ -1,0 +1,277 @@
+[b] Episode 01: The Comeback[/b]
+
+*set episode_number "01"
+*set episode_title "The Comeback"
+
+[i]"Victoria Martinez!"[/i]
+
+You crack one eye to see Mom angrily striding across your bedroom. In vain, you
+try to take refuge under the comforter, but Mom cruelly rips it from your bed,
+exposing your formerly cozy body to the savagely cool air of your room.
+Goosebumps immediately pop up all over your bare legs and arms.
+
+"If you don't get up right now, you'll be late for school," Mom says, "Already,
+there's no time for breakfast. No daughter of mine will miss the bus on the
+first day." She pauses for emphasis, then, "Get. Dressed." She sweeps out of the
+room, taking the lovely, warm comforter with her.
+
+She's right, of course. You're supposed to meet Kaitlin to walk to the bus stop,
+anyway.
+
+*page_break Ugh. Get up.
+
+You haul yourself out of bed and shamble into the bathroom to get ready for the
+first day of school. The first day of your sophomore year at Ennis High School.
+
+Ennisburg is a small town, with just the one high school. Most of the major
+employers in town are power-related. Dad works at a plant making electric car
+batteries, for instance, and the town is surrounded by several solar and wind
+farms.
+
+Freshman year started off pretty well, considering it was the transition from
+junior high to high school. You made some new friends, kept the important old
+ones and, most excitingly, got into your first real relationship.
+
+You also found some new interests. Initially, you thought you'd be most excited
+about…
+
+*temp extracurricular_desc
+*temp extracurricular_name
+
+*fake_choice
+    #theater.
+        *set fast_talk (fast_talk + 1)
+        *set extracurricular_name "theater"
+        *set extracurricular_desc "getting into character and pretending to be someone you're not"
+    #the track team.
+        *set athletics (athletics + 1)
+        *set extracurricular_name "the track team"
+        *set extracurricular_desc "running"
+    #the debate team.
+        *set diplomacy (diplomacy + 1)
+        *set extracurricular_name "the debate team"
+        *set extracurricular_desc "convincing others that you're right"
+    #mathletics.
+        *set smarts (smarts + 1)
+        *set extracurricular_name "math competitions"
+        *set extracurricular_desc "equations and calculator tricks"
+    #slacking.
+        *set street_smarts (street_smarts + 1)
+        *set extracurricular_name "slacking"
+        *set extracurricular_desc "hanging around behind public buildings"
+
+Initially, you thought you'd be most excited about ${extracurricular_name} and
+so got pretty into ${extracurricular_desc}. But then you met Ms. Grainger, who
+convinced you to join the school newspaper. Pretty quickly, it became the reason
+you got up to go to school every morning.
+
+She made it so fun and exciting that you fell in love with it. As a freshman,
+with Ms.  Grainger's mentoring, you even managed to get some pretty prominent
+pieces published.
+
+In fact, this year, you've decided to focus exclusively on the newspaper and
+spend less time on ${extracurricular_name}. The thing you liked most about being
+a reporter for the school newspaper was…
+
+*fake_choice
+    #having an excuse to go digging and finding things out.
+    #having a platform to have your thoughts and ideas heard.
+    #disseminating information that could be helpful or useful to others.
+    #outing jerks for their bad behavior and seeing them get theirs.
+
+So, last year went pretty well. Summer, on the other hand, wasn't great.
+
+After a break up at the end of the year, you got to spend the whole break seeing
+your ex all over town happily in a new relationship with that horrible, stuck up
+girl, Mercedes. And, as an extra bonus, you seem to have lost the friends in the
+divorce. For the most part, anyway.
+
+*page_break Bleh. Stop thinking about it.
+
+
+*label face_creation
+
+After your shower, you stand by your closet, regarding yourself in the
+full-length mirror adjacent. You eye the dark brown skin of your face: clear
+enough. No embarrassing first day of school pimples. Not even lurking in your
+dark eyebrows or the corners of your nose.
+
+You take in the rest of yourself. You have…
+
+*fake_choice
+    #laughing eyes.
+        *set eyes "laughing"
+    #dark eyes.
+        *set eyes "dark"
+    #troubled eyes.
+        *set eyes "troubled"
+    #bright eyes.
+        *set eyes "bright"
+    #cool eyes.
+        *set eyes "cool"
+    #piercing eyes.
+        *set eyes "piercing"
+
+You moosh on your cheeks a little bit and make some funny shapes with your
+mouth. It is a…
+
+*fake_choice
+    #pouty mouth.
+        *set mouth "pouty"
+    #kissable mouth.
+        *set mouth "kissable"
+    #wide mouth.
+        *set mouth "wide"
+    #thin mouth.
+        *set mouth "thin"
+    #small mouth.
+        *set mouth "small"
+    #strong mouth.
+        *set mouth "strong"
+
+You let your face relax some, trying to psych yourself up for the coming day.
+You like your face. It is a…
+
+*fake_choice
+    #striking face.
+        *set face "striking"
+    #sweet face.
+        *set face "sweet"
+    #cute face.
+        *set face "cute"
+    #beautiful face.
+        *set face "beautiful"
+    #cheeky face.
+        *set face "cheeky"
+    #expressive face.
+        *set face "expressive"
+
+[i]Yeah[/i], you think to yourself, [i]Not bad. I have ${eyes} eyes and a[/i]
+[i]${mouth} mouth, which make for a ${face} face.[/i] You smile to yourself.
+You're gonna be fine—no. You're gonna be awesome this year. Right?
+
+*fake_choice
+    #Right!
+    #Weeeeellllll…
+        *goto face_creation
+
+
+*label body_creation
+
+You look down at the rest of yourself. You have a…
+
+*fake_choice
+    #slim body.
+        *set body "slim"
+    #toned body.
+        *set body "toned"
+    #curvy body.
+        *set body "curvy"
+    #lush body.
+        *set body "lush"
+    #compact body.
+        *set body "compact"
+    #slight body.
+        *set body "slight"
+
+You twist at the waist, trying to pop your back, then stretch your arms out in
+front of you with your hands near the mirror. They are…
+
+*fake_choice
+    #strong hands.
+        *set hands "strong"
+    #quick hands.
+        *set hands "quick"
+    #steady hands.
+        *set hands "steady"
+    #soft hands.
+        *set hands "soft"
+    #calloused hands.
+        *set hands "calloused"
+    #pretty hands.
+        *set hands "pretty"
+
+You move your hands up to your head and run them through your hair. You have…
+
+*fake_choice
+    #short hair.
+        *set hair "short"
+    #long hair.
+        *set hair "long"
+    #chin-length hair.
+        *set hair "chin-length"
+    #spiky hair.
+        *set hair "spiky"
+    #wild hair.
+        *set hair "wild"
+    #asymmetrical hair.
+        *set hair "asymmetrical"
+
+You play with your hair a little more, until it's just right, then look yourself
+over to get the whole effect: A ${body} body, ${hands} hands and a killer
+${hair} hair cut. Watch out Ennis High!
+
+*fake_choice
+    #Yeah! Watch out!
+    #Maybe just a few more tweaks…
+        *goto body_creation
+
+
+*label getting_dressed
+
+Now, to get dressed. It's the first day and impressions are important. You want
+to pick an ensemble that makes a statement about who you are. Especially after
+the summer you've had. Accordingly, you pick…
+
+*fake_choice
+    #jeans, a T-shirt and sneakers.
+        *set wear "casual"
+    #a short skirt, button down and calf-length boots.
+        *set wear "preppy"
+    #baggy pants and a hoodie, zipped up.
+        *set wear "concealed"
+    #ripped jeans, studded belt and a leather jacket.
+        *set wear "tough"
+    #a knee-length skirt and tasteful button down.
+        *set wear "proper"
+    #corduroy shorts, a cardigan and ballet flats.
+        *comment vintage? authentic?
+        *set wear "authentic"
+
+For the first day, at least, you're gonna keep things ${wear}.
+
+*fake_choice
+    #Perfect. Let's roll.
+    #Actually, I have something better to wear.
+        *goto getting_dressed
+
+Now fully prepared, you grab your bag and dash for the front door. As you blur
+past, Dad calls, "Have a good day, m'ija!" and Mom makes a loud kissing
+sound, "Mwah, niña!" You wave and smile distractedly through the front window as
+you fast-walk past outside.
+
+Inside, Mom sighs. "She's getting so old."
+
+"We're getting so old," Dad says, chuckling.
+
+Mom smiles warmly at him. "She'll be [i]driving[/i] soon."
+
+"I know." They share a wide-eyed look.
+
+*page_break
+
+Your family's apartment is on the second floor of your building. It opens into a
+walkway around an inner court yard, separated from the drop by an aging steel
+railing. In the middle of the courtyard used to be a pool, but the landlord
+filled it with dirt and turned it into a kind of garden. It's nice, except no
+one dug up the pool first, so the ladder handles just kind of stick out of the
+dirt at one edge and there's a diving board that hangs uselessly over some
+ferns.
+
+You more or less throw yourself down the pebbled concrete stairs and come up
+just inside the courtyard entrance a little short of breath.
+
+"Heya."
+
+*page_break
+*goto_scene meeting_kaitlin

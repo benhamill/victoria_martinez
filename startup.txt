@@ -1,0 +1,44 @@
+*title Victoria Martinez
+*author Ben Hamill
+
+*scene_list
+   first_day_of_school
+
+*comment Meta
+*create episode_number  "01"
+*create episode_title   "The Comeback"
+
+*comment Look
+*create eyes    "bright"
+*create mouth   "kissable"
+*create face    "cute"
+*create body    "slim"
+*create hands   "steady"
+*create hair    "chin-length"
+*create wear    "preppy"
+
+*comment The Ex
+*create ex_antonia  "antonia"
+*create ex_girl     "girl"
+*create ex_her      "her"
+*create ex_her_p    "her"
+*create ex_she      "she"
+
+*comment Skills
+*create fast_talk       0
+*create athletics       0
+*create diplomacy       0
+*create smarts          0
+*create street_smarts   0
+
+
+*comment Before publishing, delete everything after this line and make sure the
+*comment *scene_list is back in effect.
+
+*set ex_antonia  "antonio"
+*set ex_girl     "boy"
+*set ex_her      "him"
+*set ex_her_p    "his"
+*set ex_she      "he"
+
+*comment *goto_scene the_breakup
