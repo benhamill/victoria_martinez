@@ -1,0 +1,4 @@
+#!/bin/bash
+
+file_name=$1
+cp $1 /home/ben/Dropbox/Public/choicescript/victoria_martinez/scenes/ && echo "moved $1 to Dropbox."
