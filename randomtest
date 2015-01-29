@@ -1,0 +1,3 @@
+#!/bin/bash
+
+(cd ../../../ && node randomtest.js 10000 victoria_martinez && cd - > /dev/null) > randomtest.out
