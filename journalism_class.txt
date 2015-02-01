@@ -4,5 +4,127 @@
 *comment get the other 5.  Mercedes acts like their her cameras, rather than the
 *comment class's.
 
-This year, Newspaper is 3rd period, right before lunch. So it is, with a spring
-in your step, you enter 
+This year, Newspaper is 3rd period, right before lunch. All morning, you've been
+looking forward to this class and catching up with Ms. Grainger. As you walk
+into the room, you can't help but smile as memories from last year come flooding
+back.
+
+Ms. Grainger catches your eye and smiles at you. Just as she's starting to wave
+at you, someone steps in front of you, blocking your line of sight: Mercedes
+Grant.
+
+"Oh," she says, lowering her eyelids, "You're in this class?" She sighs
+dramatically and one of her friends smirks.
+
+*choice
+    #Ask how she missed your publications.
+        You narrow your eyes at her. "Uh… yeah, Mercedes. I had, like, six
+        prominent articles published last year. Did you take this class without
+        even having read the newspaper before?"
+
+        Mercedes shrugs, still elaborately bored. "I know about newspapers. I
+        guess my dad owns the real one."
+
+        The "real" newspaper is the Ennisburg Herald and this is news to you. Of
+        course, Mercedes's parents own a lot of things, so it doesn't seem
+        implausible.
+
+        *choice
+            #Tell her that that's not the same as knowing about newspapers.
+                You narrow your eyes at her, incredulous. "That's… not the same
+                as knowing about newspapers, Mercedes. It actually takes work to
+                put one together, which is a concept I'm sure you're completely
+                unfamiliar with."
+
+                She rolls her eyes at you. "Pff. What[i]ever[/i], troll." She
+                and her friends turn as one and sit down.
+
+                *page_break
+                *goto talking_to_ms_grainger
+
+            #Just be mean.
+                Why did you ask her a question, anyway? It's not like you could
+                have expected her to have something worthwhile to say.
+
+                *goto trash_talk
+
+            #Say nothing. Walk around her.
+                *goto walk_past
+
+    #Ask why she's in this class.
+        "Yeah, I am, Mercedes," you say, "Why are you in this class?" Her
+        presence here seems bizarre, since she wasn't in this class last year.
+
+        "It seems like an easy A," she says, "and it'll look good on college
+        applications. I don't need to justify myself to you, though. Get out of
+        my face, loser."
+
+        Wait. Wasn't she the one who got in your face? In any case, she and her
+        friends turn to sit down.
+
+        *page_break
+        *goto talking_to_ms_grainger
+
+    #Just be mean.
+        *label trash_talk
+
+        You pretend to have just noticed her and in your most polite voice, you
+        say, "Oh!  Mercedes. Your face hole is leaking noises again. You should
+        probably see to that."
+
+        Mercedes rolls her eyes at you. "Why do I even try with you? You
+        obviously need more help than ten of me could give." She looks your
+        wardrobe up and down disdainfully.
+
+        *choice
+            #Call her on her non sequitur.
+                "Great, Mercedes," you say, "Way to stay on topic with your
+                insults."
+
+                She rolls her eyes at you. "Pff. What[i]ever[/i], troll." She
+                and her friends turn as one and sit down.
+
+                Despite the fact that it looked to you like you got the better
+                of that exchange, everyone who overheard seems to think Mercedes
+                came out on top. You just can't win against the popular crowd.
+
+                *page_break
+                *goto talking_to_ms_grainger
+
+            #Tell her to shut up.
+                "Shut up, Mercedes," you say, "Get out of my way."
+
+                *goto walk_past
+
+            #Say something that'll cut deep.
+                "Aw," you say, pretending to be concerned, "Are you in a bad
+                mood today, Mercedes? Was mummy drunk and mean at breakfast
+                again?"
+
+                Mercedes blinks at you, startled. "Die in a fire," she says
+                viciously, then turns on her heel with a sniff to find a seat.
+
+                *page_break
+                *goto talking_to_ms_grainger
+
+            #Say nothing. Walk around her.
+                *goto walk_past
+
+    #Say nothing. Walk around her.
+        *label walk_past
+
+        *temp hair_insult
+        *if ((hair = "short") or ((hair = "long") or (hair = "chin-length")))
+            *set hair_insult "boring"
+        *else
+            *set hair_insult "ridiculous"
+
+        You shake your head wordlessly at her and shoulder past her. As you do,
+        you catch her murmur something to her friends about your ${hair_insult}
+        ${hair} hair.
+
+        *page_break
+        *goto talking_to_ms_grainger
+
+*label talking_to_ms_grainger
+Stuff.

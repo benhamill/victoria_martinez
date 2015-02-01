@@ -1,8 +1,8 @@
 *title Victoria Martinez
 *author Ben Hamill
 
-*scene_list
-   first_day_of_school
+*comment *scene_list
+*comment    first_day_of_school
 
 *comment Meta
 *create episode_number  "01"
@@ -41,4 +41,4 @@
 *set ex_her_p    "his"
 *set ex_she      "he"
 
-*comment *goto_scene the_breakup
+*goto_scene journalism_class
