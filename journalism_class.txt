@@ -11,10 +11,10 @@ back.
 
 Ms. Grainger catches your eye and smiles at you. Just as she's starting to wave
 at you, someone steps in front of you, blocking your line of sight: Mercedes
-Grant.
+Grant, flanked by her cronies, Piper and Peyton.
 
 "Oh," she says, lowering her eyelids, "You're in this class?" She sighs
-dramatically and one of her friends smirks.
+dramatically and Piper smirks.
 
 *choice
     #Ask how she missed your publications.
@@ -40,7 +40,7 @@ dramatically and one of her friends smirks.
                 and her friends turn as one and sit down.
 
                 *page_break
-                *goto talking_to_ms_grainger
+                *goto after_mercedes
 
             #Just be mean.
                 Why did you ask her a question, anyway? It's not like you could
@@ -63,7 +63,7 @@ dramatically and one of her friends smirks.
         friends turn to sit down.
 
         *page_break
-        *goto talking_to_ms_grainger
+        *goto after_mercedes
 
     #Just be mean.
         *label trash_talk
@@ -81,15 +81,15 @@ dramatically and one of her friends smirks.
                 "Great, Mercedes," you say, "Way to stay on topic with your
                 insults."
 
-                She rolls her eyes at you. "Pff. What[i]ever[/i], troll." She
-                and her friends turn as one and sit down.
+                She rolls her eyes at you. Again. "Pff. What[i]ever[/i], troll."
+                She and her friends turn as one and sit down.
 
                 Despite the fact that it looked to you like you got the better
                 of that exchange, everyone who overheard seems to think Mercedes
                 came out on top. You just can't win against the popular crowd.
 
                 *page_break
-                *goto talking_to_ms_grainger
+                *goto after_mercedes
 
             #Tell her to shut up.
                 "Shut up, Mercedes," you say, "Get out of my way."
@@ -103,9 +103,10 @@ dramatically and one of her friends smirks.
 
                 Mercedes blinks at you, startled. "Die in a fire," she says
                 viciously, then turns on her heel with a sniff to find a seat.
+                Peyton gives you a dirty look, then she and Piper sit, as well.
 
                 *page_break
-                *goto talking_to_ms_grainger
+                *goto after_mercedes
 
             #Say nothing. Walk around her.
                 *goto walk_past
@@ -113,18 +114,40 @@ dramatically and one of her friends smirks.
     #Say nothing. Walk around her.
         *label walk_past
 
-        *temp hair_insult
-        *if ((hair = "short") or ((hair = "long") or (hair = "chin-length")))
+        *temp hair_insult "ridiculous"
+        *if (hair = "short") or ((hair = "long") or (hair = "chin-length"))
             *set hair_insult "boring"
-        *else
-            *set hair_insult "ridiculous"
 
         You shake your head wordlessly at her and shoulder past her. As you do,
-        you catch her murmur something to her friends about your ${hair_insult}
-        ${hair} hair.
+        you catch her murmur to Piper and Peyton something to her friends about
+        your "${hair_insult} ${hair} hair".
 
         *page_break
-        *goto talking_to_ms_grainger
+        *goto after_mercedes
 
-*label talking_to_ms_grainger
-Stuff.
+
+*label after_mercedes
+
+With Mercedes out of your face, you look up towards Ms. Grainger, hoping to have
+time to catch up with her, but before you can even step towards her, the bell
+rings, signalling the start of class. You quickly find a seat.
+
+A lot of the class time is spent on orienting the new folks to being on the
+newspaper, how the class works and what the work will consist of. During all of
+this you…
+
+*fake_choice
+    #zone out and think about what you'll do after school.
+        Maybe you and Kaitlin can head down to Baker Street to hang out. Or go
+        mess around at Bailey Park.
+    #zone out and worry about the $!{ex_antonia} situation.
+        What are you going to do about $!{ex_antonia}? At least you haven't seen
+        ${ex_her} yet. And seeing Mercedes was… survivable.
+    #zone out and think about what your first story should be.
+        You start brainstorming story ideas, but quickly get side tracked
+        fantasizing about a hit-piece editorial on the topic of all the ways in
+        which Mercedes is vile.
+    #listen raptly to every word.
+        Even though it's all stuff you've heard before, you listen attentively
+        to every word Ms. Grainger says. Newspaper is, after all, your favorite
+        class. And, anyway, it sets a good example for the newer students.
