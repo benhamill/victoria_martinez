@@ -41,4 +41,4 @@
 *set ex_her_p    "his"
 *set ex_she      "he"
 
-*goto_scene journalism_class
+*goto_scene purse_snatch

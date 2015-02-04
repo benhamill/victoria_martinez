@@ -1,16 +1,10 @@
-*comment In journalism class, Mercedes' dad has bought a bunch of new, expensive
-*comment medium-format film cameras and donated them to the class. Ms. Grainger
-*comment will hold one for Victoria to check out, but Mercedes and her friends
-*comment get the other 5.  Mercedes acts like their her cameras, rather than the
-*comment class's.
-
 This year, Newspaper is 3rd period, right before lunch. All morning, you've been
 looking forward to this class and catching up with Ms. Grainger. As you walk
 into the room, you can't help but smile as memories from last year come flooding
 back.
 
 Ms. Grainger catches your eye and smiles at you. Just as she's starting to wave
-at you, someone steps in front of you, blocking your line of sight: Mercedes
+you over, someone steps in front of you, blocking your line of sight: Mercedes
 Grant, flanked by her cronies, Piper and Peyton.
 
 "Oh," she says, lowering her eyelids, "You're in this class?" She sighs
@@ -59,8 +53,8 @@ dramatically and Piper smirks.
         applications. I don't need to justify myself to you, though. Get out of
         my face, loser."
 
-        Wait. Wasn't she the one who got in your face? In any case, she and her
-        friends turn to sit down.
+        Wait. Wasn't she the one who came to talk to you? In any case, she and
+        her friends turn to sit down.
 
         *page_break
         *goto after_mercedes
@@ -119,8 +113,8 @@ dramatically and Piper smirks.
             *set hair_insult "boring"
 
         You shake your head wordlessly at her and shoulder past her. As you do,
-        you catch her murmur to Piper and Peyton something to her friends about
-        your "${hair_insult} ${hair} hair".
+        you catch her murmur something to Piper and Peyton about your
+        "${hair_insult} ${hair} hair".
 
         *page_break
         *goto after_mercedes
@@ -128,26 +122,126 @@ dramatically and Piper smirks.
 
 *label after_mercedes
 
-With Mercedes out of your face, you look up towards Ms. Grainger, hoping to have
-time to catch up with her, but before you can even step towards her, the bell
-rings, signalling the start of class. You quickly find a seat.
+With Mercedes out of your face, you look toward the front of the room, hoping to
+have time to catch up with Ms. Grainger, but before you can take a step, the
+bell rings, signalling the start of class. You quickly find a seat.
 
 A lot of the class time is spent on orienting the new folks to being on the
-newspaper, how the class works and what the work will consist of. During all of
-this you…
+newspaper staff, how the class works and what the work will consist of. During
+all of this you…
 
 *fake_choice
     #zone out and think about what you'll do after school.
         Maybe you and Kaitlin can head down to Baker Street to hang out. Or go
         mess around at Bailey Park.
+
     #zone out and worry about the $!{ex_antonia} situation.
         What are you going to do about $!{ex_antonia}? At least you haven't seen
         ${ex_her} yet. And seeing Mercedes was… survivable.
+
     #zone out and think about what your first story should be.
         You start brainstorming story ideas, but quickly get side tracked
         fantasizing about a hit-piece editorial on the topic of all the ways in
         which Mercedes is vile.
+
     #listen raptly to every word.
         Even though it's all stuff you've heard before, you listen attentively
         to every word Ms. Grainger says. Newspaper is, after all, your favorite
         class. And, anyway, it sets a good example for the newer students.
+
+
+Eventually, Ms. Grainger starts handing out assignments about who will work on
+what kinds of tasks. This year, she assigns you a full-time reporter position.
+Mercedes, Piper and Peyton all get assigned as full-time photographers, which
+seems suspicious until Ms. Grainger makes an announcement.
+
+"I have some exciting news," Ms. Grainger says, "This year, we've received a
+very generous equipment donation from the Herald." She hefts an expensive
+looking camera from behind her desk and shows it to the class. "Mr. Grant
+donated a handful of very nice medium format film cameras to us. I'll be issuing
+five of them shortly."
+
+"I'll call the names of the people that will get to try out the new cameras.
+Meanwhile, everyone get acquainted with the computer system. Returning staffers,
+help out our new folks."
+
+You cluster around a computer with some other students and start getting the new
+ones acquainted with the submission, editing and publishing system. You keep
+your ear out for your name, but it doesn't get called. In fact, you notice that
+of the five cameras being issued, three are going to Mercedes and her crew. How
+do you feel about that?
+
+*fake_choice
+    #Typical. Those kids always get everything they want.
+        If Mercedes's dad wanted to buy her a nice camera, he could just have
+        done so. Why do they have to pretend that it's for everyone, if they're
+        just going to hand it back to her and her friends anyway?
+
+    #It makes sense. They did get assigned photographer positions, after all.
+        If Mercedes's dad wanted to buy her a nice camera, he could just have
+        done so. This way, at least the school can keep the cameras and some
+        other students get experience working with nice equipment.
+
+    #Meh. Ms. Grainger can do what she wants. It's her equipment.
+        You'll make do with what you have, and get the job done. It's what you
+        did last year and it was great. You don't need a fancy camera to do what
+        you need to.
+
+
+As the bell rings, ending class, Ms. Grainger calls out, "Tomorrow we'll start
+working on story ideas and make assignments! Victoria, can I talk to you a
+minute?"
+
+You wait while the rest of the staff files out of the room. Ms. Grainger sits
+down at her desk and shuffles some papers. Once everyone else is gone, she stops
+and says, "Hi, Victoria. I hope you had a good summer?"
+
+*fake_choice
+    #Change the subject.
+        "What'd you want to see me about, Ms. Grainger?" you say, glancing down.
+
+        She pauses a beat, slightly surprised, then says, "That good, huh? Well,
+        hopefully this will make you smile."
+
+    #Be honest, but guarded.
+        "It…" you say, "It could have been better. But I'm excited about this
+        year. What'd you want to see me about?"
+
+        "Well," Ms. Grainger says, "I'm glad you're looking forward to this
+        year. I have something for you that I hope portends good things for
+        you."
+
+    #Fill her in.
+        "It was awful," you say, "I don't know if you heard, but $!{ex_antonia}
+        and I… well, ${ex_she} dumped me at the end of the year. And ${ex_she}'s
+        dating Mercedes. They seem really happy together and they're probably
+        not trying to rub it in my face, but it mostly feels that way."
+
+        "Ah," Ms. Grainger says, "That would explain the exchange before class."
+        She looks thoughtful a moment. "Well, I have something for you. It won't
+        solve your ${ex_girl}friend problems, but it might cheer you up."
+
+    #[i](Lie)[/i] Tell her it was great.
+        "It was great, Ms. Grainger," you say, "But I'm excited to get back to
+        work on the newspaper."
+
+        "I'm glad to hear that, Victoria," she says.
+
+
+She reaches down behind her desk and reveals a sixth new camera with a smile.
+"After the hard work you put in last year and the promise you show, I wanted to
+try something new out. I'm going to assign you to some stories solo for a while.
+You'll be in charge of taking your own photos, as well as writing. If it works
+well and you like it, we'll keep doing it and maybe expand it to some other
+students. If it doesn't work out," she just shrugs.
+
+She sets the camera in the bag that came with it and hands it to you. "The user
+manual is in there. You should read it. And I know you know this, but don't lose
+or break this, please. They're really, very expensive."
+
+Just then, the warning bell rings. You have two minutes to get to your next
+class. Looping the camera bag's strap over your head, you hurry for the door and
+call out over your shoulder with a smile and a wave, "Thanks, Ms. Grainger!"
+
+*page_break A few days later…
+*goto_scene purse_snatch
