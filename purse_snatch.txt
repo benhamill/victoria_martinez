@@ -1,2 +1,4 @@
-Victoria and Kaitlin are hanging out on Baker street after school and witness a
-purse snatching. Victoria can shoot a photo or give chase.
+*comment Victoria and Kaitlin are hanging out on Baker street after school and
+*comment witness a purse snatching. Victoria can shoot a photo or give chase.
+
+Later in the week, you and Kaitlin are sitting outside FroYo Face after school.
